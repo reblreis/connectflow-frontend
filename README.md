@@ -93,7 +93,7 @@ ng build
 
 Os arquivos gerados serão disponibilizados no diretório de build configurado pelo Angular.
 
-##👩‍💻 Autora
+## 👩‍💻 Autora
 
 ### Regina Reis
 Desenvolvedora Java Full Stack e Desenvolvedora/Funcional Salesforce.
