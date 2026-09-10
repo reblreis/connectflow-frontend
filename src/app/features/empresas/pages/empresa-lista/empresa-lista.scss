@@ -1,0 +1,67 @@
+.pagina {
+  padding: 32px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+p {
+  margin-top: 8px;
+  color: #666;
+}
+
+.botao-principal {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.tabela-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  font-weight: 600;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+.ativo {
+  background: #dff5e5;
+}
+
+.inativo {
+  background: #f5dddd;
+}
+
+.sem-registros {
+  padding: 30px;
+  text-align: center;
+}

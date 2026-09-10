@@ -1,0 +1,75 @@
+<div class="pagina">
+
+  <div class="cabecalho">
+    <div>
+      <h1>Empresas</h1>
+      <p>Gerenciamento de empresas</p>
+      
+      <p>Total de empresas: {{ empresas.length }} </p>
+    </div>
+
+    <a routerLink="/empresas/nova" class="botao-principal">
+      + Nova empresa
+    </a>
+  </div>
+
+  <div class="tabela-container">
+
+    <table>
+
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>CNPJ</th>
+          <th>E-mail</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        @for (empresa of empresas; track empresa.id) {
+
+          <tr>
+
+            <td>
+              {{ empresa.nome }}
+            </td>
+
+            <td>
+              {{ empresa.cnpj }}
+            </td>
+
+            <td>
+              {{ empresa.email }}
+            </td>
+
+            <td>
+              @if (empresa.ativa) {
+                <span class="status ativo">
+                  Ativa
+                </span>
+              } @else {
+                <span class="status inativo">
+                  Inativa
+                </span>
+              }
+            </td>
+
+          </tr>
+
+        }
+
+      </tbody>
+
+    </table>
+
+    @if (empresas.length === 0) {
+      <div class="sem-registros">
+        Nenhuma empresa cadastrada.
+      </div>
+    }
+
+  </div>
+
+</div>
