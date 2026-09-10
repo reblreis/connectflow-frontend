@@ -1,59 +1,54 @@
-# ConnectflowFrontend
+# ConnectFlow Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.21.
+Frontend da aplicação **ConnectFlow**, desenvolvido com **Angular** para gerenciamento de empresas e integração com o backend da aplicação.
 
-## Development server
+## 🚀 Sobre o projeto
 
-To start a local development server, run:
+O ConnectFlow é uma aplicação web desenvolvida com foco no gerenciamento de empresas.
 
-```bash
-ng serve
-```
+Este repositório contém a camada de **frontend**, responsável pela interface da aplicação e pela comunicação com a API REST disponibilizada pelo backend.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+O projeto faz parte de uma aplicação full stack, composta por:
 
-## Code scaffolding
+- Frontend: Angular
+- Backend: Java + Spring Boot
+- Banco de dados: PostgreSQL
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🛠️ Tecnologias utilizadas
 
-```bash
-ng generate component component-name
-```
+- Angular
+- TypeScript
+- HTML
+- CSS
+- Angular CLI
+- Node.js
+- npm
+- REST API
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📋 Funcionalidades
 
-```bash
-ng generate --help
-```
+O frontend foi estruturado para consumir os serviços disponibilizados pelo backend e fornecer uma interface para as operações de gerenciamento de empresas.
 
-## Building
+Entre as operações previstas na aplicação estão:
 
-To build the project run:
+- Cadastro de empresas
+- Consulta de empresas
+- Atualização de empresas
+- Integração com API REST
+- Comunicação entre frontend e backend
 
-```bash
-ng build
-```
+## 📁 Estrutura do projeto
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```text
+connectflow-frontend/
+├── public/
+├── src/
+│   ├── app/
+│   └── ...
+├── .gitignore
+├── angular.json
+├── package.json
+├── package-lock.json
+├── proxy.conf.json
+├── tsconfig.json
+└── README.md
