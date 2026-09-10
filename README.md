@@ -37,6 +37,67 @@ Entre as operações previstas na aplicação estão:
 - Integração com API REST
 - Comunicação entre frontend e backend
 
+## ⚙️ Pré-requisitos
+
+Antes de executar o projeto, é necessário ter instalado:
+
+Node.js
+npm
+Angular CLI
+
+Para verificar as versões instaladas:
+
+node --version
+npm --version
+ng version
+
+## ▶️ Executando o projeto
+
+Clone o repositório:
+
+git clone https://github.com/reblreis/connectflow-frontend.git
+
+Entre na pasta do projeto:
+
+cd connectflow-frontend
+
+Instale as dependências:
+
+npm install
+
+Inicie o servidor de desenvolvimento:
+
+ng serve
+
+A aplicação estará disponível em:
+
+http://localhost:4200/
+
+## 🔗 Integração com o Backend
+
+O frontend utiliza uma API REST para comunicação com o backend do ConnectFlow.
+
+Durante o desenvolvimento local, o arquivo proxy.conf.json pode ser utilizado para configurar o encaminhamento das requisições entre Angular e o backend.
+
+Backend do projeto:
+
+ConnectFlow Backend
+
+https://github.com/reblreis/connectflow-backend
+
+## 🧪 Build
+
+Para gerar uma versão de produção:
+
+ng build
+
+Os arquivos gerados serão disponibilizados no diretório de build configurado pelo Angular.
+
+##👩‍💻 Autora
+
+### Regina Reis
+Desenvolvedora Java Full Stack e Desenvolvedora/Funcional Salesforce.
+
 ## 📁 Estrutura do projeto
 
 ```text
